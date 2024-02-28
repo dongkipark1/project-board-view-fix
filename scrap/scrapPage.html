@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>스크랩 페이지</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!--jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!--FontAwesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <!-- 헤더 -->
+    <header class="top-0 position-fixed w-100 bg-white">
+        <nav class="navbar navbar-expand-sm bg-withe navbar-withe border-bottom d-flex justify-content-between pb-3 pt-3"
+            style="padding: 30px 150px;">
+            <div class="container-fluid mx-5">
+                <a class="navbar-brand" href="#">LOGO</a>
+                <div class="d-flex justify-content-start">
+                    <form action="#" class="d-flex justify-content-center">
+                        <input type="search" class="form-control border-0" placeholder="통합 검색">
+                        <button class="btn btn-outline-success border-0 text-black" type="submit">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </form>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../user/joinForm.html">개인 회원가입</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../company/joinForm.html">기업 회원가입</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../user/loginForm.html">로그인</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index/index.html">로그아웃</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../userMyPage/myPageIndex.html">마이페이지</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/board/board.html">게시판</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="box">
+        <div class="box_ui bg-light" style="padding: 30px 200px; margin-top: 73px;">
+            <div class="ui_content d-flex justify-content-center">
+                <div class="content_list" style="width: calc(100% - 300px);">
+
+                    <!-- 스크랩 페이지 화면 -->
+                    <section class="content d-flex justify-content-center">
+                        <div class="container"
+                            style="position: relative; padding: 0 39px 39px; background-color: #fff; border: 1px solid #dce1eb;">
+                            <div class="scrap_title"
+                                style="font-weight: bold; font-size: 20px; line-height: 140%; color: #333; letter-spacing: -0.2px; margin: 60px 0 20px 0;">
+                                <h3 class="scrap_title_1">스크랩 리스트</h3>
+                                <div class="scrap_sort"
+                                    style="position: relative; padding-left: 11px; margin-top: 30px; font-size: 0;">
+                                    <p class="scrap_subtitle"
+                                        style="display: inline-block; margin-right: 6px; font-size: 13px; color: #888; vertical-align: middle;">
+                                        "전체 1개"
+                                        <span style="padding-left: 15px; color: #272727;">*최근 1년 동안 스크랩한 공고를 열람할
+                                            수
+                                            있습니다.</span>
+                                    </p>
+                                </div>
+                                <div class="scrap_list">
+                                    <ul
+                                        style="display: block; list-style-type: disc; margin-block-start: 1em; margin-block-end: 1em; margin-inline-start: 0px; margin-inline-end: 0px; padding-inline-start: 40px;">
+                                        <li
+                                            style="position: relative; display: table; table-layout: fixed; padding-left: 9px; width: 100%; border: 1px solid; border-color: #fff #fff #e5eaef;">
+                                            <div class="col col_chk"
+                                                style="width: 6%; text-align: center; display: table-cell; vertical-align: middle; padding: 20px 0; font-size: 13px; letter-spacing: 0;">
+                                                <span class="chk_item" style="display: block; height: 18px;">
+
+                                                </span>
+                                            </div>
+                                            <div class="scrap_info"
+                                                style="display: table-cell; vertical-align: middle; padding: 20px 0; font-size: 13px; letter-spacing: 0; width: 79%; text-align: left; padding-left: 10px; ">
+                                                <div class="company" style="color: #000;">
+                                                    <ul class="list_inline">
+                                                        <li style="display: inline-block; list-style: none;"><a href="#"
+                                                                target="_blank"
+                                                                style="font-size: 15px; letter-spacing: 0; color: inherit; vertical-align: -1px;">(주)네이놈</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </section>
+
+
+                </div>
+
+                <!-- 사이드바 -->
+                <div class="content_sidebar d-flex flex-column bg-white rounded-3 h-100"
+                    style="width: 300px;margin: 0px 20px;padding: 20px;">
+                    <span class="h5 fw-bold pb-2">내 목록</span>
+                    <form class="sidebar_box d-flex flex-column mb-3" action="#">
+                        <a href="/userMyPage/updateForm.html"
+                            class="sidebar_link text-black text-decoration-none pb-3">회원 정보 수정</a>
+                        <a href="#" class="sidebar_link text-black text-decoration-none pb-3">이력서 작성</a>
+                        <a href="#" class="sidebar_link text-black text-decoration-none pb-3">스크랩</a>
+                        <a href="#" class="sidebar_link text-black text-decoration-none pb-3">지원 현황</a>
+                        <a href="/index/index.html" class="sidebar_link text-black text-decoration-none">회원탈퇴</a>
+                    </form>
+                </div>
+            </div>
+
+            <div class="scrap_page d-flex justify-content-center" style="margin-top: 20px;">
+
+                <a href="#" class="bt_first" aria-label="첫 페이지로 이동">
+                    << </a>
+                        <a href="#" class="bt_prev" aria-label="이전 페이지로 이동">
+                            < </a>
+
+                                <a href="#" class="num active" aria-label="페이지 1">1</a>
+
+                                <a href="#" class="bt_next" aria-label="다음 페이지로 이동">></a>
+                                <a href="#" class="bt_last" aria-label="마지막 페이지로 이동">>></a>
+            </div>
+        </div>
+    </main>
+
+    <!-- 푸터 -->
+    <footer style="padding: 30px 200px;">
+        <div class="border-top border-top-0">
+            <span class="h4">Created by Team 3</span>
+            <hr>
+            <div class="d-flex lh-lg">
+                <a href="#" class="text-black text-decoration-none pe-3">회사소개</a>
+                <a href="#" class="text-black text-decoration-none pe-3">고객센터</a>
+                <a href="#" class="text-black text-decoration-none pe-3">오시는길</a>
+                <a href="#" class="text-black text-decoration-none pe-3">서비스 소개</a>
+                <a href="#" class="text-black text-decoration-none pe-3">서비스 약관</a>
+                <a href="#" class="text-black text-decoration-none pe-3">도움말</a>
+            </div>
+            <hr>
+            <div class="d-flex flex-column">
+                <span class="lh-lg">☎ 010-2222-7777</span>
+                <span class="fw-bold">© 2023. Alicorn, Inc. all rights reserved.</span>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
